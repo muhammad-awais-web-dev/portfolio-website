@@ -1,0 +1,148 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 10px;
+    width: 100%;
+    color: #002424;
+}
+.footerContent{
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footerItem{
+    flex: 1 1 350px;
+    min-width: 350px;
+    max-width: 1fr;
+    max-height: fit-content;
+    margin: 10px 0;
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 0.8;
+
+}
+h3 span {
+    font-size: 1rem;
+}
+.footerDescription{
+    padding: 10px;
+    text-align: left;
+}
+.footerLink{
+    color: #002424;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 0px;
+    transition: color 0.2s ease;
+}
+.footerLink:hover {
+    color: #ffc745;
+}
+.footerTitle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.footerMenu li{
+    list-style: none;
+}
+
+.socialButtonsContainer{
+    display: flex;
+    gap: 1rem;
+}
+.socialButton{
+
+    background: #002424;
+    border: #002424 2px solid;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.socialButton:hover{
+    background: white;
+    color: #002424;
+    transition: all 0.3s ease;
+}
+.socialButton i{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.socialButton .iconText{
+    opacity: 0;
+    max-width: 0;
+    margin-left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.7s ease-in-out;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+}
+.socialButton:hover .iconText{
+    opacity: 1;
+    max-width: 200px;
+    margin-left: 1px;
+    transition: all 0.7s ease-in-out;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        padding: 10px 10px;
+    }
+    .footer h3 {
+        text-align: center;
+    }
+    .footerContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerItem{
+        max-width: 100%;
+        min-width: 100%;
+        margin: 10px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMenu{
+        max-width: 100%;
+        min-width: 100%;
+        margin: 10px 0;
+        align-items: center;
+        justify-content: center;
+    }    
+}
