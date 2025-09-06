@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <nav id="navbar">
-      <h1 className="logo">Muhammad Awais</h1>
+      <h1 className="logo">Muhammad Awais<span><br />Web Developer</span></h1>
 
       {/* Burger Icon */}
       <div className={`burger ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
@@ -31,7 +31,6 @@ function Navbar() {
         <Link to="/projects" className="navLink" onClick={closeMenu}>Projects</Link>
         <Link to="/certifications" className="navLink" onClick={closeMenu}>Certifications</Link>
         <Link to="/services" className="navLink" onClick={closeMenu}>Services</Link>
-        <Link to="/testimonials" className="navLink" onClick={closeMenu}>Testimonials</Link>
         <a href="#contact" className="contactBtn" onClick={closeMenu}>Contact</a>
       </ul>
     </nav>
