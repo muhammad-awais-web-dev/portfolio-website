@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 // import Contact from './components/Contact';
@@ -32,7 +33,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/testimonials' element={<Testimonials />} />        
       </Routes>
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </Router>
   );
