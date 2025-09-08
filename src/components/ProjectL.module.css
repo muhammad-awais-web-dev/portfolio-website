@@ -1,0 +1,162 @@
+/* Project Card Component Styles */
+.projectCard {
+  width: 100%;
+  max-width: 30%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.projectImage {
+    width: 100%;
+  height: auto;
+}
+
+.projectContent {
+  align-self: stretch;
+  flex: 1 1 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.projectInfo {
+    width: 100%;
+  padding: 24px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.projectCategory {
+  width: 100%;
+  color: var(--Color-1, #002424);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 17.6px;
+  word-wrap: break-word;
+}
+
+.projectTitle {
+  width: 100%;
+  color: var(--Color-1, #002424);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.projectDescription {
+    width: 100%;
+  color: var(--Color-1, #002424);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.tagsContainer {
+    padding: 20px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tag {
+  padding: 2px 12px;
+  background: var(--Color-1, #002424);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagText {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 19.6px;
+  word-wrap: break-word;
+}
+
+.buttons {
+  align-self: stretch;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.buttonText {
+    flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  padding: 16px 12px;
+  background: var(--Color-1, #002424);
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.buttonText:hover {
+  background: #003333;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .projectInfo {
+    width: 100%;
+    padding: 16px 12px;
+  }
+  
+  .projectCategory,
+  .projectTitle {
+    width: 100%;
+  }
+  
+  .tagsContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .buttons {
+    padding: 0 12px;
+  }
+  
+  .projectCard {
+    max-width: 100%;
+  }
+}
