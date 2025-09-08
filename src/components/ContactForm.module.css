@@ -1,4 +1,5 @@
 .contactForm {
+    color: #ffc745;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@
     font-weight: 600;
     margin-bottom: 1rem;
     text-align: center;
-    color: #222;
+    color: #ffc745;
 }
 
 .formGroup {
@@ -29,7 +30,7 @@
     margin-bottom: 0.5rem;
     font-size: 1rem;
     align-self: flex-start;
-    color: #fff;
+    color: #ffc745;
 }
 
 .input,
