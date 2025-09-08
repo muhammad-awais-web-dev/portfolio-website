@@ -1,10 +1,10 @@
 import React from 'react'
-import Styles from "./Home.module.css"
 import { Link } from 'react-router-dom'
+import Styles from "./Hero.module.css"
 
 const CV = process.env.PUBLIC_URL + '/assets/CV.pdf';
 
-function Home() {
+function Hero() {
   return (
     <section className={Styles.heroSection}>
       <div className={Styles.containers}>
@@ -42,4 +42,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Hero

@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 // import Contact from './components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 
 function About(){
   return <h1>About Me</h1>
@@ -32,7 +32,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/certifications' element={<Certifications />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/testimonials' element={<Testimonials />} />        
+        <Route path='/testimonials' element={<Testimonials />} />
       </Routes>
       <Contact />
       <Footer />
