@@ -9,13 +9,8 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://your-project-link.com",
+        ref: "https://drive.google.com/file/d/1Mku4B2tyCME5JuWsHLbX8Vj01tVByW1l/view?usp=drivesdk",
         icon_Class: "fa-solid fa-arrow-right"
-      },
-      {
-        text: "Code",
-        ref: "https://github.com/your-repo",
-        icon_Class: "fa-brands fa-github"
       }
     ],
     featured: true
@@ -29,15 +24,26 @@ const projectsData = [
     tags: ["Wordpress", "Design"],
     buttons: [
       {
-        text: "View Project",
-        ref: "https://your-project-link.com",
+        text: "1",
+        ref: "https://dev-esaarfatima.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "2",
+        ref: "https://dev-kashafalvi.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "3",
+        ref: "https://dev-uswafatima.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "4",
+        ref: "https://dev-haroon-editor.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "5",
+        ref: "https://dev-waqas-malik.pantheonsite.io/",
         icon_Class: "fa-solid fa-arrow-right"
       },
-      {
-        text: "Code",
-        ref: "https://github.com/your-repo",
-        icon_Class: "fa-brands fa-github"
-      }
     ],
     featured: true
   },
@@ -51,12 +57,12 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://your-project-link.com",
+        ref: "https://muhammad-awais-web-dev.github.io/little-lemon",
         icon_Class: "fa-solid fa-arrow-right"
       },
       {
         text: "Code",
-        ref: "https://github.com/your-repo",
+        ref: "https://github.com/muhammad-awais-web-dev/little-lemon",
         icon_Class: "fa-brands fa-github"
       }
     ],
@@ -72,13 +78,8 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://your-project-link.com",
+        ref: "https://dev-practical-2.pantheonsite.io/",
         icon_Class: "fa-solid fa-arrow-right"
-      },
-      {
-        text: "Code",
-        ref: "https://github.com/your-repo",
-        icon_Class: "fa-brands fa-github"
       }
     ],
     featured: true
@@ -93,12 +94,12 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://your-project-link.com",
+        ref: "https://muhammad-awais-web-dev.github.io/",
         icon_Class: "fa-solid fa-arrow-right"
       },
       {
         text: "Code",
-        ref: "https://github.com/your-repo",
+        ref: "https://github.com/muhammad-awais-web-dev/muhammad-awais-web-dev.github.io",
         icon_Class: "fa-brands fa-github"
       }
     ],
@@ -114,13 +115,8 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://your-project-link.com",
+        ref: "https://rangoriwayat.com/",
         icon_Class: "fa-solid fa-arrow-right"
-      },
-      {
-        text: "Code",
-        ref: "https://github.com/your-repo",
-        icon_Class: "fa-brands fa-github"
       }
     ],
     featured: false

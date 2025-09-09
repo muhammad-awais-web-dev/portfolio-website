@@ -1,0 +1,169 @@
+/* Certification Card Component Styles */
+.certificationCard {
+  width: 100%;
+  max-width: 30%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  border: #ffc745 2px solid;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.certificationImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    padding: 25px;
+  object-fit: cover;
+}
+
+.certificationContent {
+  align-self: stretch;
+  flex: 1 1 0;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.certificationInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.certificationHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.professionalBadge {
+  padding: 4px 12px;
+  background: #ffc745;
+  color: #000000;
+  border-radius: 12px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.certificationTitle {
+    color: #ffc745;
+    height: 48px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.certificationIssuer {
+  color: #ffc745;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.certificationPartOf {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  font-style: italic;
+  margin: 0;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid #ffc745;
+}
+
+.verificationsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.verificationButton {
+  align-self: stretch;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 12px 16px;
+  border: #ffc745 2px solid;
+  border-radius: 15px;
+  color: #ffc745;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.verificationButton:hover {
+  background: #ffc745;
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #002424;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .certificationCard {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificationCard {
+    max-width: 100%;
+  }
+  
+  .certificationContent {
+    padding: 16px;
+  }
+  
+  .certificationTitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .certificationIssuer {
+    font-size: 13px;
+  }
+}

@@ -31,7 +31,7 @@ const ProjectL = ({
         </div>
         <div className={styles.buttons}>
           {buttons.map((button, index) => (
-            <a key={index} href={button.ref} className={styles.buttonText}>
+            <a key={index} href={button.ref} className={styles.buttonText} target="_blank" rel="noopener noreferrer">
               {button.text} <i className={button.icon_Class}></i>
             </a>
           ))}

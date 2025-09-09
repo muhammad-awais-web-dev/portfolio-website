@@ -1,0 +1,24 @@
+.certificationsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .certificationsContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificationsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+  }
+}
