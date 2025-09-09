@@ -1,0 +1,154 @@
+.HeroSection{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    color: #ffc745;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 39.6px;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+.description{
+    color: #ffc745;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0;
+    padding: 0 20px;
+}
+.Details{
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Details div{
+    flex: 1;
+
+}
+.Journey{
+    color: #ffc745;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.subtitle{
+    color: #ffc745;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin: 0;
+    padding: 0;
+}
+.whatIBring{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.Benifit{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Benifit i{
+    color: #002424;
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+.BenifitTitle{
+    color: #002424;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+.Skills{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 10px;
+}
+.SkillsList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.technologies{
+    color: #ffc745;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0;
+}
+.techList{
+    width: 100%;
+    display: flex;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.techCard{
+    background-color: white;
+    color: #002424;
+    border: #002424 2px solid;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.techCard:hover{
+    background-color: #002424;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+    border: white 2px solid;
+}
+
+@media (max-width: 768px) {
+    .Details{
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    .subtitle{
+        align-self: center;
+    }
+    
+}

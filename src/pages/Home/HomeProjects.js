@@ -10,6 +10,7 @@ function HomeProjects() {
         <div className={styles.projectContainer}>
             <ProjectsList showFeaturedOnly={true}/>
         </div>
+        <a href="/projects" className={styles.viewAllButton}>View All Projects <i className="fa-solid fa-arrow-right"></i></a>
     </section>
   )
 }

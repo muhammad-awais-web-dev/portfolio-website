@@ -1,0 +1,38 @@
+.SkillCard {
+  background: white;
+  color: #002424;
+  border-radius: 10px;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.SkillCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.SkillInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.SkillInfo i{
+    font-size: 1.9rem;
+    color: #002424;
+}
+.ProficiencyBar{
+    width: 100%;
+    height: 10px;
+    background-color: #575757;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.ProficiencyFill{
+    height: 100%;
+    background-color: #002424;
+    border-radius: 5px 0 0 5px;
+    border-radius: 0 5px 5px 0;
+}

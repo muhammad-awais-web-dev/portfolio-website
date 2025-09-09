@@ -5,10 +5,11 @@ import Navbar from './components/Navbar';
 // import Contact from './components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import About from './pages/Projects/About';
 
-function About(){
-  return <h1>About Me</h1>
-}
+// function About(){
+//   return <h1>About Me</h1>
+// }
 function Projects(){
   return <h1>Projects</h1>
 }

@@ -3,6 +3,7 @@
     width: 90%;
     margin: auto;
     display: flex;
+    padding: 100px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,4 +37,18 @@
 .projectContainer>div>div{
     flex: 1 1 400px;
     max-width: 450px;
+}
+.viewAllButton{
+    padding: 10px 20px;
+    background-color: #ffc745;
+    color: #002424;
+    font-weight: 500;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+.viewAllButton:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px);
 }
