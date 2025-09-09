@@ -50,7 +50,7 @@ const Skills=[
     {
         id:9,
         name:"Prototyping",
-        icon_Class:"fa-solid fa-vector-square",
+        icon_Class:"fa-solid fa-mouse-pointer",
         proficiency:80
     },
     {
