@@ -29,14 +29,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     flex: 1;
 }
 .projectContainer>div>div{
     flex: 1 1 250px;
-    max-width: 300px;
+    max-width: 250px;
 }
 .projectContainer>div>div a{
     font-size: smaller;

@@ -27,7 +27,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/TN2D1PJIN14V"
+                ref: "https://www.coursera.org/account/accomplishments/verify/TN2D1PJIN14V"
             }
         ]
     },
@@ -41,7 +41,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/D5ZMPRIBLFAE"
+                ref: "https://www.coursera.org/account/accomplishments/verify/D5ZMPRIBLFAE"
             }
         ]
     },
@@ -55,7 +55,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref:"https://www.coursera.org/account/accomplishments/certificate/N6P286S7ZT9G"
+                ref:"https://www.coursera.org/account/accomplishments/verify/N6P286S7ZT9G"
             }
         ]
     },
@@ -69,7 +69,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/8GA9AOUESWXJ"
+                ref: "https://www.coursera.org/account/accomplishments/verify/8GA9AOUESWXJ"
             }
         ]
     },
@@ -83,7 +83,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/YNPSEEKP303R"
+                ref: "https://www.coursera.org/account/accomplishments/verify/YNPSEEKP303R"
             }
         ]
     },
@@ -97,7 +97,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/KMO4NTBITP9M"
+                ref: "https://www.coursera.org/account/accomplishments/verify/KMO4NTBITP9M"
             }
         ]
     },
@@ -111,7 +111,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/YWPE401RK871"
+                ref: "https://www.coursera.org/account/accomplishments/verify/YWPE401RK871"
             }
         ]
     },
@@ -125,7 +125,7 @@ const CertificationsData = [
         verifications: [
             {
                 text:"Coursera",
-                ref: "https://www.coursera.org/account/accomplishments/certificate/C0HOMZHH42SL"
+                ref: "https://www.coursera.org/account/accomplishments/verify/C0HOMZHH42SL"
             }
         ]
     },
@@ -148,6 +148,146 @@ const CertificationsData = [
         ]
     },
     {
+        title: "Introduction to Front-End Development",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/RJRKE9K7PVKK"
+            }
+        ]
+    },
+    {
+        title: "Programming with JavaScript",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/A7CLRP2WIKD6"
+            }
+        ]
+    },
+    {
+        title: "Version Control",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/C6B6ST9O0LHA"
+            }
+        ]
+    },
+    {
+        title: "HTML and CSS in depth",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/7O97VRCRRI44"
+            }
+        ]
+    },
+    {
+        title: "React Basics",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/XD9V81GGED2Y"
+            }
+        ]
+    },
+    {
+        title: "Advanced React",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/XD9V81GGED2Y"
+            }
+        ]
+    },
+    {
+        title: "Meta React Specialization",
+        issuer: "Meta via Coursera",
+        professional: true,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta React Specialization",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/specialization/AEJKAIBTYXQR"
+            }
+        ]
+    },
+    {
+        title: "Principles of UX/UI Design",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/KK84L15S093S"
+            }
+        ]
+    },
+    {
+        title: "Front-End Developer Capstone",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/C8YM9UI5QZPP"
+            }
+        ]
+    },
+    {
+        title: "Coding Interview Preparation",
+        issuer: "Meta via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Front-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/RU3OQ3U5CZBL"
+            }
+        ]
+    },
+    {
         title: "Google AI Essentials Professional Certificate",
         issuer: "Google via Coursera",
         professional: true,
@@ -162,6 +302,62 @@ const CertificationsData = [
             {
                 text:"Credly",
                 ref: "https://www.credly.com/badges/4ae9f46b-b653-440d-a046-9abc1d5a94a1/public_url"
+            }
+        ]
+    },
+    {
+        title: "Start Writing Prompts like a Pro",
+        issuer: "Google via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
+        featured: false,
+        partof: "Google AI Essentials Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/QQURQWKU1XL9"
+            }
+        ]
+    },
+    {
+        title: "Design Prompts for Everyday Work Tasks",
+        issuer: "Google via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
+        featured: false,
+        partof: "Google AI Essentials Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/MSPJXCONNSQK"
+            }
+        ]
+    },
+    {
+        title: "Speed Up Data Analysis and Presentation Building",
+        issuer: "Google via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
+        featured: false,
+        partof: "Google AI Essentials Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/X7YKLHO7D7BY"
+            }
+        ]
+    },
+    {
+        title: "Use AI as a Creative or Expert Partner",
+        issuer: "Google via Coursera",
+        professional: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
+        featured: false,
+        partof: "Google AI Essentials Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/QHUBB02DRLBH"
             }
         ]
     }
