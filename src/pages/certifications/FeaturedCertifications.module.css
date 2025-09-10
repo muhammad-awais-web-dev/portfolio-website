@@ -1,0 +1,56 @@
+.featuredCertifications{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #ffc745;
+}
+.sectionTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.projectContainer{
+    display: flex;
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.projectContainer>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+.projectContainer>div>div{
+    flex: 1;
+    max-width: 370px;
+    min-width: 300px;
+    width: 100%;
+}
+.viewAllButton{
+    padding: 10px 20px;
+    background-color: #ffc745;
+    color: #002424;
+    font-weight: 500;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+.viewAllButton:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px);
+}

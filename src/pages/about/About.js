@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './About.module.css'
 import Skills from '../../data/Skills'
-import Skill from '../Projects/Skill'
+import Skill from './Skill'
 import Technologies from '../../data/Technologies'
 
 function About() {

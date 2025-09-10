@@ -25,23 +25,23 @@ const projectsData = [
     buttons: [
       {
         text: "1",
-        ref: "https://dev-esaarfatima.pantheonsite.io/",
-        icon_Class: "fa-solid fa-arrow-right"
-      },{
-        text: "2",
-        ref: "https://dev-kashafalvi.pantheonsite.io/",
-        icon_Class: "fa-solid fa-arrow-right"
-      },{
-        text: "3",
-        ref: "https://dev-uswafatima.pantheonsite.io/",
-        icon_Class: "fa-solid fa-arrow-right"
-      },{
-        text: "4",
         ref: "https://dev-haroon-editor.pantheonsite.io/",
         icon_Class: "fa-solid fa-arrow-right"
       },{
-        text: "5",
+        text: "2",
+        ref: "https://dev-esaarfatima.pantheonsite.io/",        
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "3",
+        ref: "https://dev-kashafalvi.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "4",
         ref: "https://dev-waqas-malik.pantheonsite.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },{
+        text: "5",
+        ref: "https://dev-uswafatima.pantheonsite.io/",
         icon_Class: "fa-solid fa-arrow-right"
       },
     ],

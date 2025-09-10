@@ -2,7 +2,7 @@
 .projectCard {
   width: 100%;
   max-width: 30%;
-  height: 100%;
+  height: -webkit-fill-available;
   overflow: hidden;
   border-radius: 20px;
   display: inline-flex;
