@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Certifications from './pages/certifications/Certifications';
+import Services from './pages/services/Services';
 
 // function About(){
 //   return <h1>About Me</h1>
@@ -18,9 +19,9 @@ import Certifications from './pages/certifications/Certifications';
 // function Certifications(){
 //   return <h1>Certifi556cations</h1>
 // }
-function Services(){
-  return <h1>Services</h1>
-}
+// function Services(){
+//   return <h1>Services</h1>
+// }
 function Testimonials(){
   return <h1>Testimonials</h1>
 }

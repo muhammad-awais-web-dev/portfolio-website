@@ -1,0 +1,27 @@
+.servicesSection{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0;
+}
+.servicesSection h1{
+    font-size: 2.8rem;
+    color: #ffc745;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.servicesSection p{
+    font-size: 1.2rem;
+    color: #ffc745;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+}
