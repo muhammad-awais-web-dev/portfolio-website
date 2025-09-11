@@ -16,7 +16,7 @@
     font-weight: 700;
     text-align: center;
 }
-.servicesSection p{
+.servicesDescription{
     font-size: 1.2rem;
     color: #ffc745;
     max-width: 800px;
@@ -24,4 +24,12 @@
     font-weight: 400;
     text-align: center;
     max-width: 800px;
+}
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
 }

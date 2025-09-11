@@ -2,7 +2,7 @@ const ServicesData=[
     {
         id:1,
         title:"Portfolio / Landing Page in WordPress",
-        mainIcon:"fa-brand fa-wordpress",
+        mainIcon:"fa-brands fa-wordpress",
         subIcon:"fa-solid fa-user",
         desc:"Clean and modern one-page websites to showcase your personal brand or product.",
         incl:[
@@ -17,7 +17,7 @@ const ServicesData=[
     {
         id:2,
         title:"Small Business Website in WordPress",
-        mainIcon:"fa-brand fa-wordpress",
+        mainIcon:"fa-brands fa-wordpress",
         subIcon:"fa-solid fa-briefcase",
         desc:"Professional websites tailored for small businesses to establish a strong online presence.",
         incl:[
@@ -32,7 +32,7 @@ const ServicesData=[
     {
         id:3,
         title:"E-commerce Website in WordPress",
-        mainIcon:"fa-brand fa-wordpress",
+        mainIcon:"fa-brands fa-wordpress",
         subIcon:"fa-solid fa-shopping-cart",
         desc:"Fully functional e-commerce websites to help you sell products online.",
         incl:[
