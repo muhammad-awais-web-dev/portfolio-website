@@ -1,7 +1,7 @@
 const projectsData = [
   {
     id: 1,
-    image: process.env.PUBLIC_URL + '/assets/projects/CtrlAlt Shop.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/CtrlAlt Shop.webp',
     category: "CtrlAlt - UI/UX Design",
     title: "CtrlAlt Shop UI Case Study",
     description: "Mobile e-commerce concept for gaming gear with comprehensive UX research.",
@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     id: 2,
-    image: process.env.PUBLIC_URL + '/assets/projects/Freelancer Portfolio.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/Freelancer Portfolio.webp',
     category: "Wordpress",
     title: "Freelancer Portfolios Initiative",
     description: "Custom portfolios for 5 freelancers across creative fields.",
@@ -49,7 +49,7 @@ const projectsData = [
   },
   {
     id: 3,
-    image: process.env.PUBLIC_URL + '/assets/projects/Little Lemon.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/Little Lemon.webp',
     category: "React.js",
     title: "Little Lemon",
     description: "A responsive website built for a restaurant using React.js.",
@@ -70,7 +70,7 @@ const projectsData = [
   },
   {
     id: 4,
-    image: process.env.PUBLIC_URL + '/assets/projects/Delicacy.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/Delicacy.webp',
     category: "Wordpress",
     title: "Delicacy - Food Delivery",
     description: "A sleek website for food delivery services.",
@@ -86,7 +86,7 @@ const projectsData = [
   },
   {
     id: 5,
-    image: process.env.PUBLIC_URL + '/assets/projects/Personal Portfolio.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/Personal Portfolio.webp',
     category: "HTML/CSS/JS",
     title: "Personal Portfolio",
     description: "A sleek, modern portfolio website to showcase projects and skills.",
@@ -94,7 +94,7 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://muhammad-awais-web-dev.github.io/",
+        ref: "https://muhammad-awais-web-dev.github.io/Portfolio-HTML-CSS-JS",
         icon_Class: "fa-solid fa-arrow-right"
       },
       {
@@ -107,7 +107,7 @@ const projectsData = [
   },
   {
     id: 6,
-    image: process.env.PUBLIC_URL + '/assets/projects/Rang-o-Riwayat.webp',
+    image: process.env.PUBLIC_URL + '/assets/Projects/Rang-o-Riwayat.webp',
     category: "WordPress",
     title: "Rang-O-Riwayat",
     description: "An eCommerce platform blending heritage, craftsmanship, and modern design.",
