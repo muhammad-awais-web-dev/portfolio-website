@@ -101,8 +101,7 @@ portfolio-website/
 │   │       └── MyProcess.js         # Process section
 │   ├── App.js                       # Main app component with routing
 │   └── index.js                     # React app entry point
-├── Readme Images/                   # Mockups and wireframes
-└── Timeline.txt                     # Development journey log
+└── Readme Images/                   # Mockups and wireframes
 ```
 
 ## 🎯 Data Flow Architecture
@@ -472,11 +471,11 @@ This is a personal portfolio project, but feedback and suggestions are welcome! 
 
 ## 📧 Contact
 
-For any questions or collaborations, feel free to reach out through the contact form on the portfolio or connect with me on [LinkedIn](your-linkedin-profile).
+For any questions or collaborations, feel free to reach out through the contact form on the portfolio or connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-awais-web-dev/).
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
 ---
 

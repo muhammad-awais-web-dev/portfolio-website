@@ -4,7 +4,6 @@ import ProjectL from './ProjectL';
 import projectsData from '../data/projectsData';
 
 const ProjectsList = ({ showFeaturedOnly = false, showOthersOnly = false }) => {
-  // Filter projects based on featured status if needed
   let projectsToShow = projectsData;
 
   if (showFeaturedOnly) {

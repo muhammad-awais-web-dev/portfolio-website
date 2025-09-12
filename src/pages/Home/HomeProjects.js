@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './HomeProjects.module.css'
 import ProjectsList from '../../components/ProjectsList'
+import { Link } from 'react-router-dom'
 
 function HomeProjects() {
   return (
@@ -10,7 +11,7 @@ function HomeProjects() {
         <div className={styles.projectContainer}>
             <ProjectsList showFeaturedOnly={true}/>
         </div>
-        <a href="/projects" className={styles.viewAllButton}>View All Projects <i className="fa-solid fa-arrow-right"></i></a>
+        <Link to="/projects" className={styles.viewAllButton}>View All Projects <i className="fa-solid fa-arrow-right"></i></Link>
     </section>
   )
 }
