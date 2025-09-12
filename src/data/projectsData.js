@@ -29,7 +29,7 @@ const projectsData = [
         icon_Class: "fa-solid fa-arrow-right"
       },{
         text: "2",
-        ref: "https://dev-esaarfatima.pantheonsite.io/",        
+        ref: "https://dev-esaarfatima.pantheonsite.io/",
         icon_Class: "fa-solid fa-arrow-right"
       },{
         text: "3",
@@ -66,7 +66,7 @@ const projectsData = [
         icon_Class: "fa-brands fa-github"
       }
     ],
-    featured: true
+    featured: false
   },
   {
     id: 4,
@@ -99,7 +99,7 @@ const projectsData = [
       },
       {
         text: "Code",
-        ref: "https://github.com/muhammad-awais-web-dev/muhammad-awais-web-dev.github.io",
+        ref: "https://github.com/muhammad-awais-web-dev/Portfolio-HTML-CSS-JS",
         icon_Class: "fa-brands fa-github"
       }
     ],
@@ -120,6 +120,27 @@ const projectsData = [
       }
     ],
     featured: false
+  },
+  {
+    id: 7,
+    image: process.env.PUBLIC_URL + '/assets/Projects/This.webp',
+    category: "React.js",
+    title: "Personal Portfolio - React.js",
+    description: "A personal portfolio website built with React.js.",
+    tags: ["React", "JavaScript"],
+    buttons: [
+      {
+        text: "View Project",
+        ref: "https://muhammad-awais-web-dev.github.io/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },
+      {
+        text: "Code",
+        ref: "https://github.com/muhammad-awais-web-dev/muhammad-awais-web-dev.github.io",
+        icon_Class: "fa-brands fa-github"
+      }
+    ],
+    featured: true
   }
 ];
 
