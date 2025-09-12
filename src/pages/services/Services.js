@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Services.module.css'
 import ServicesData from '../../data/ServicesData'
 import Service from './Service'
+import MyProcess from './MyProcess'
 
 function Services() {
   return (
@@ -17,6 +18,7 @@ function Services() {
             ))}
         </div>
       </section>
+      <MyProcess />
     </>
   )
 }
