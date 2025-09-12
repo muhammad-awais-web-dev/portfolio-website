@@ -9,6 +9,7 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Certifications from './pages/certifications/Certifications';
 import Services from './pages/services/Services';
+import ScrollToTop from './components/ScrollToTop';
 
 // function About(){
 //   return <h1>About Me</h1>
@@ -29,6 +30,7 @@ function Testimonials(){
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

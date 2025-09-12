@@ -43,7 +43,9 @@ function MyProcess() {
       <div className={styles.stepsContainer}>
         {ProcessSteps.map((step) => (
           <div key={step.step} className={styles.step}>
-            <span className={styles.stepNumber}>{step.step}</span>
+            <div className={styles.stepHeader}>
+              <span className={styles.stepNumber}>{step.step}</span>
+            </div>
             <h3 className={styles.stepTitle}>{step.title}</h3>
             <p className={styles.stepDescription}>{step.description}</p>
           </div>
