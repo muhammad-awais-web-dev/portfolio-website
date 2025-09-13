@@ -26,17 +26,13 @@
 .projectContainer>div{
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     flex: 1;
 }
 .projectContainer>div>div{
-    flex: 1 1 400px;
-    max-width: 450px;
+    width: 100%;
 }
 .viewAllButton{
     padding: 10px 20px;
@@ -51,4 +47,16 @@
 .viewAllButton:hover{
     transform: scale(1.05);
     transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+    .homeProjects{
+        padding: 50px 0;
+    }
+    .sectionTitle{
+        font-size: 2rem;
+    }
+    .projectContainer>div{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

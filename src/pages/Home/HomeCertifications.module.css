@@ -15,13 +15,22 @@
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
-.home-certifications{
+.homeCertifications{
     display: flex;
     gap: 40px;
     justify-items: center;
     align-items: center;
     width: 100%;
     padding-bottom: 50px;
+}
+.homeCertifications>div{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.homeCertifications>div>div{
+    width: 100%;
 }
 .viewAllButton{
     padding: 10px 20px;
@@ -36,4 +45,16 @@
 .viewAllButton:hover{
     transform: scale(1.05);
     transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+    .homeCertifications{
+        padding: 50px 0;
+    }
+    .sectionTitle{
+        font-size: 2rem;
+    }
+    .homeCertifications>div{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
