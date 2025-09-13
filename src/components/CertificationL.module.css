@@ -1,7 +1,6 @@
 /* Certification Card Component Styles */
 .certificationCard {
   width: 100%;
-  max-width: 30%;
   height: -webkit-fill-available;
   overflow: hidden;
   border-radius: 20px;
@@ -143,12 +142,6 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 1200px) {
-  .certificationCard {
-    max-width: 45%;
-  }
-}
-
 @media (max-width: 768px) {
   .certificationCard {
     max-width: 100%;
