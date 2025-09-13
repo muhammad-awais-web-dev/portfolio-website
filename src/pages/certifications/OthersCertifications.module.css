@@ -26,17 +26,11 @@
 .projectContainer>div{
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .projectContainer>div>div{
-    flex: 1 1 250px;
-    max-width: 250px;
+    width: 100%;
 }
 .projectContainer>div>div a{
     font-size: smaller;
@@ -60,4 +54,14 @@
 .viewAllButton:hover{
     transform: scale(1.05);
     transform: translateY(-5px);
+}
+@media (max-width: 900px) {
+    .projectContainer>div{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .projectContainer>div{
+        grid-template-columns: 1fr;
+    }
 }
