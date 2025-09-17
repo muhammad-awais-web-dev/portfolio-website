@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 1,
     image: process.env.PUBLIC_URL + '/assets/Projects/CtrlAlt Shop.webp',
-    category: "CtrlAlt - UI/UX Design",
+    category: "UI/UX Design",
     title: "CtrlAlt Shop UI Case Study",
     description: "Mobile e-commerce concept for gaming gear with comprehensive UX research.",
     tags: ["UI", "UX", "Research"],

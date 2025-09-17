@@ -21,7 +21,7 @@ const CertificationsList = ({
 
   return (
     <div className={styles.certificationsContainer}>
-      {certificationsToShow.map((certification, index) => (
+      {certificationsToShow.slice().reverse().map((certification, index) => ( // Reverse to show latest first
         <CertificationL
           key={index}
           title={certification.title}
