@@ -152,12 +152,12 @@ const projectsData = [
     buttons: [
       {
         text: "View Project",
-        ref: "https://muhammad-awais-web-dev.github.io/FilmFind/",
+        ref: "https://muhammad-awais-web-dev.github.io/filmfind/",
         icon_Class: "fa-solid fa-arrow-right"
       },
       {
         text: "Code",
-        ref: "https://github.com/muhammad-awais-web-dev/FilmFind/",
+        ref: "https://github.com/muhammad-awais-web-dev/filmfind/",
         icon_Class: "fa-brands fa-github"
       }
     ],
