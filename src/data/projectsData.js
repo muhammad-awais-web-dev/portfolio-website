@@ -82,7 +82,7 @@ const projectsData = [
         icon_Class: "fa-solid fa-arrow-right"
       }
     ],
-    featured: true
+    featured: false
   },
   {
     id: 5,
@@ -137,6 +137,27 @@ const projectsData = [
       {
         text: "Code",
         ref: "https://github.com/muhammad-awais-web-dev/muhammad-awais-web-dev.github.io",
+        icon_Class: "fa-brands fa-github"
+      }
+    ],
+    featured: true
+  },
+  {
+    id:8,
+    image: process.env.PUBLIC_URL + '/assets/Projects/filmfind.webp',
+    category: "React.js + API",
+    title: "FilmFind - Movie Search App",
+    description: "A React.js app that fetches and displays movie, and tv show data from TMDB API.",
+    tags: ["React", "API", "JavaScript"],
+    buttons: [
+      {
+        text: "View Project",
+        ref: "https://muhammad-awais-web-dev.github.io/FilmFind/",
+        icon_Class: "fa-solid fa-arrow-right"
+      },
+      {
+        text: "Code",
+        ref: "https://github.com/muhammad-awais-web-dev/FilmFind/",
         icon_Class: "fa-brands fa-github"
       }
     ],
