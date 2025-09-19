@@ -9,36 +9,25 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Certifications from './pages/certifications/Certifications';
 import Services from './pages/services/Services';
+import Testing from './pages/Testing/Testing';
 import ScrollToTop from './components/ScrollToTop';
+import ChatBox from './components/ChatBox';
 
-// function About(){
-//   return <h1>About Me</h1>
-// }
-// function Projects(){
-//   return <h1>Projects</h1>
-// }
-// function Certifications(){
-//   return <h1>Certifi556cations</h1>
-// }
-// function Services(){
-//   return <h1>Services</h1>
-// }
-function Testimonials(){
-  return <h1>Testimonials</h1>
-}
+
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Navbar />
+      <ChatBox />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={< About/>} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/certifications' element={<Certifications />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/testimonials' element={<Testimonials />} />
+        <Route path='/testing' element={<Testing />} />
       </Routes>
       <Contact />
       <Footer />
