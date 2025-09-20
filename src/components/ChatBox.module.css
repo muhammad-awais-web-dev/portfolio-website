@@ -1,0 +1,265 @@
+.chatBoxContainer {
+  position: fixed;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  right: 20px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 330px;
+  max-height: fit-content; /* Prevents being hidden under keyboard */
+}
+
+/* iOS fix: keyboard pushes up viewport, so we switch to absolute */
+@supports (-webkit-touch-callout: none) {
+  .chatBoxContainer {
+    position: absolute;
+    bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Floating button */
+.chatButton {
+  background: #0078ff;
+  width: 60px;
+  align-self: flex-end;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+
+.chatButton:hover {
+  background: #005fcc;
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat box */
+.chatBox {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 0px;
+  max-height: calc(100vh - 40px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: bottom right;
+  opacity: 0;
+  transform: scale(0.8) translateY(20px);
+}
+
+.chatBoxOpen {
+  height: 400px;
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.chatBoxClosed {
+  height: 0px;
+  opacity: 0;
+  transform: scale(0.8) translateY(20px);
+}
+.chatBox>div{
+  border-bottom: 1px solid #ddd;
+}
+/* Header */
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0078ff;
+  padding: 12px;
+  display: inline-block;
+}
+
+.closeButton {
+  float: right;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+  margin: 12px;
+  transition: color 0.2s;
+}
+
+.closeButton:hover {
+  color: #000;
+}
+
+/* Messages */
+.messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
+
+.userContainer,
+.botContainer {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+
+.userContainer {
+  flex-direction: row-reverse;
+}
+
+.botContainer {
+  flex-direction: row;
+}
+
+.user {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #0078ff;
+}
+
+.userMessage {
+  background: #0078ff;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px 12px 0 12px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.botMessage {
+  background: #f1f1f1;
+  color: #333;
+  padding: 10px 14px;
+  border-radius: 12px 12px 12px 0;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Markdown styling */
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6 {
+  margin: 0.5em 0;
+  color: inherit;
+}
+
+.text h1 { font-size: 1.5em; }
+.text h2 { font-size: 1.3em; }
+.text h3 { font-size: 1.1em; }
+
+.text p {
+  margin: 0.5em 0;
+}
+
+.text ul, .text ol {
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+}
+
+.text li {
+  margin: 0.2em 0;
+}
+
+.text strong {
+  font-weight: bold;
+}
+
+.text em {
+  font-style: italic;
+}
+
+.text a {
+  color: #0078ff;
+  text-decoration: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+.text code {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.text pre {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 0.5em 0;
+}
+
+.text pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Input area */
+.inputContainer {
+  display: flex;
+  border-top: 1px solid #ddd;
+  background: #fff;
+}
+
+.input {
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+  width: calc(100% - 80px);
+  resize: none;
+  height: 50px;
+  max-height: 120px; /* allow expansion but not infinite */
+  overflow-y: auto;
+}
+
+.button {
+  border: none;
+  background: #0078ff;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+  width: 80px;
+}
+
+.button:hover {
+  background: #005fcc;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .chatBoxContainer {
+    width: 100%;
+    max-width: fit-content;
+    right: 0;
+    top: 63.5938px;
+    border-radius: 0;
+  }
+  .chatButton {
+    margin: 10px 20px 0 0;
+    width: 50px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .chatBox {
+    border-radius: 0;
+    width: 100vw;
+    max-height: 100vh;
+  }
+}

@@ -14,7 +14,7 @@ const ProjectsList = ({ showFeaturedOnly = false, showOthersOnly = false }) => {
 
   return (
     <div className={styles.projectsContainer}>
-      {projectsToShow.map((project) => (
+      {projectsToShow.slice().reverse().map((project) => (
         <ProjectL
           key={project.id}
           image={project.image}

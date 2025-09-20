@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
+import ChatBox from "./ChatBox";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ function Navbar() {
   };
 
   return (
+    <>
     <nav id="navbar">
       <h1 className="logo">Muhammad Awais<span><br />Web Developer</span></h1>
 
@@ -23,6 +25,7 @@ function Navbar() {
         <span></span>
         <span></span>
       </div>
+
 
       {/* Menu */}
       <ul id="navMenu" className={isMenuOpen ? "active" : ""}>
@@ -34,6 +37,8 @@ function Navbar() {
         <a href="#contact" className="contactBtn" onClick={closeMenu}>Contact</a>
       </ul>
     </nav>
+    <ChatBox />
+    </>
   );
 }
 
