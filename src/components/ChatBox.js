@@ -102,7 +102,7 @@ function ChatBox() {
       >
         <i className="fas fa-comments"></i> Chat
       </button>
-      <div className={styles.chatBox} style={{ height: isOpen ? '400px' : '0px' }}>
+      <div className={styles.chatBox} style={{ height: isOpen ? '400px' : '0px', display: isOpen ? 'flex' : 'none' }}>
         <div>
           <i className={`${styles.closeButton} fas fa-close`} onClick={() => setIsOpen(false)}></i>
           <h2 className={styles.title}>Chat</h2>

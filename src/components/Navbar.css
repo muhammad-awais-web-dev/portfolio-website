@@ -9,7 +9,7 @@
   box-shadow: 0 0 8px 2px #f2f2f244;
   position:sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1001;
 }
 
 .logo {
@@ -106,9 +106,10 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
   }
-
+  
   #navMenu.active {
     transform: translateX(0);
+    z-index: 1050 !important;
   }
 
   .navLink, .contactBtn {
