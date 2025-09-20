@@ -6,6 +6,7 @@ import CertificationsData from '../data/CertificationsData';
 import ServicesData from '../data/ServicesData';
 import socialLinks from '../data/socialLinks';
 import Skills from '../data/Skills';
+import profileData from '../data/profileData';
 import { main } from '../API/GEMINI';
 
 const projectsText = JSON.stringify(ProjectData, null, 2);
@@ -13,6 +14,7 @@ const certificationsText = JSON.stringify(CertificationsData, null, 2);
 const servicesText = JSON.stringify(ServicesData, null, 2);
 const skillsText = JSON.stringify(Skills, null, 2);
 const socialLinksText = JSON.stringify(socialLinks, null, 2);
+const profileDataText = JSON.stringify(profileData, null, 2)
 
 function ChatBox() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -71,9 +73,12 @@ function ChatBox() {
        - Be engaging and approachable, as if conversing with a potential client or collaborator.
 
     8. **Data Provided**
+
+    Personal Info:
+    ${profileDataText}
+
     Projects:
     ${projectsText}
-    when asking for projects at the end of the response provide a link to the GitHub Account when appopirate.
 
     Certifications:
     ${certificationsText}
@@ -86,7 +91,7 @@ function ChatBox() {
 
     socialLinks:
     ${socialLinksText}
-    When Asked for contact info provide: Priority contact via LinkedIn
+    When Asked for contact info provide: Priority contact via LinkedIn and for those that dont use LinkedIn provide Email Link(awaisrafique4929@gmail.com)
 
 
     9. **Chat History**
@@ -99,9 +104,9 @@ function ChatBox() {
     Question: ${question}
   `;
 
-  const handleSendMessage = async () => {
+  const handleSendMessage = async (msgParam) => {
 
-    const msg = messages;
+    const msg = msgParam ? msgParam : messages;
     setMessages('');
 
     if (msg.trim() === '') return;
@@ -179,8 +184,8 @@ Here are some of **Muhammad Awais'** key projects:
         style={{ display: isOpen ? 'none' : 'block' }}
         onClick={() => setIsOpen(true)}
       >
-        <i className="fas fa-comments"></i> Chat
-      </button>
+        <i className="fas fa-comments"></i>
+        </button>
       <div className={`${styles.chatBox} ${isOpen ? styles.chatBoxOpen : styles.chatBoxClosed}`}>
         <div>
           <i className={`${styles.closeButton} fas fa-close`} onClick={() => setIsOpen(false)}></i>
@@ -212,6 +217,38 @@ Here are some of **Muhammad Awais'** key projects:
               </div>
             </div>
           ))}
+        </div>
+        <div className={styles.conversationStarters} style={chatHistory.length > 1 ? { display: 'none' } : {}}>
+          <button
+            className={styles.starterButton}
+            onClick={() => handleSendMessage('Tell me about yourself')}
+          >
+            <i className='fas fa-user-circle' ></i> About
+          </button>
+          <button
+            className={styles.starterButton}
+            onClick={() => handleSendMessage('Show me your projects')}
+          >
+            <i className='fas fa-folder-open' ></i> Projects
+          </button>
+          <button
+            className={styles.starterButton}
+            onClick={() => handleSendMessage('What services do you offer?')}
+          >
+            <i className='fas fa-concierge-bell' ></i> Services
+          </button>
+          <button
+            className={styles.starterButton}
+            onClick={() => handleSendMessage('How can I contact you?')}
+          >
+            <i className='fas fa-phone' ></i> Contact
+          </button>
+          <button
+            className={styles.starterButton}
+            onClick={() => handleSendMessage('What are your skills and certifications?')}
+          >
+           <i className='fas fa-graduation-cap'></i> Skills and Certifications
+          </button>
         </div>
         <div className={styles.inputContainer}>
           <textarea

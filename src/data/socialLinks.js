@@ -22,6 +22,12 @@ const socialLinks = [
     name: "GitHub",
     url: "https://github.com/muhammad-awais-web-dev/",
     iconClass: "fa-brands fa-github"
+  },
+  {
+    id: 5,
+    name: "Instagram",
+    url: "https://www.instagram.com/muhammadawaiswebdev/",
+    iconClass : "fa-brand fa-instagram"
   }
 ];
 

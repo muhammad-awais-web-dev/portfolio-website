@@ -21,10 +21,11 @@
 
 /* Floating button */
 .chatButton {
-  background: #0078ff;
+  background: white;
   width: 60px;
+  height: 60px;
   align-self: flex-end;
-  color: #fff;
+  color: #002424;
   border: none;
   padding: 12px 18px;
   border-radius: 30px;
@@ -36,7 +37,7 @@
 }
 
 .chatButton:hover {
-  background: #005fcc;
+  background: #ffc745;
   transform: scale(1.05) translateY(-2px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
@@ -76,7 +77,7 @@
   margin: 0;
   font-size: 18px;
   font-weight: bold;
-  color: #0078ff;
+  color: #002424;
   padding: 12px;
   display: inline-block;
 }
@@ -120,11 +121,11 @@
 .user {
   margin-right: 8px;
   font-size: 18px;
-  color: #0078ff;
+  color: #002424;
 }
 
 .userMessage {
-  background: #0078ff;
+  background: #002424;
   color: white;
   padding: 10px 14px;
   border-radius: 12px 12px 0 12px;
@@ -144,6 +145,49 @@
 .text {
   font-size: 14px;
   line-height: 1.4;
+}
+
+/* Conversation Starters */
+.conversationStarters {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px;
+}
+
+.starterButton {
+  width: fit-content;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.starterButton:nth-of-type(1) {
+  background: #ffadad;
+  color: black;
+}
+.starterButton:nth-of-type(2) {
+  background: #ffd6a5;
+  color: black;
+}
+.starterButton:nth-of-type(3) {
+  background: #fdffb6;
+  color: black;
+}
+.starterButton:nth-of-type(4) {
+  background: #caffbf;
+  color: black;
+}
+.starterButton:nth-of-type(5) {
+  background: #9bf6ff;
+  color: black;
+}
+
+.starterButton:hover {
+  background: #002424;
+  color: white;
 }
 
 /* Markdown styling */
@@ -178,11 +222,13 @@
 }
 
 .text a {
-  color: #0078ff;
+  color: #2c92ff;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .text a:hover {
+  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -228,7 +274,7 @@
 
 .button {
   border: none;
-  background: #0078ff;
+  background: #002424;
   color: white;
   padding: 12px;
   cursor: pointer;
@@ -238,7 +284,8 @@
 }
 
 .button:hover {
-  background: #005fcc;
+  background: #ffc745;
+  color: black;
 }
 
 /* Mobile tweaks */
@@ -253,6 +300,7 @@
   .chatButton {
     margin: 10px 20px 0 0;
     width: 50px;
+    height: 50px;
     padding: 10px 14px;
     font-size: 14px;
   }
