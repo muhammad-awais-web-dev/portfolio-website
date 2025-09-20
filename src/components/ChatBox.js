@@ -4,6 +4,7 @@ import styles from './ChatBox.module.css';
 import ProjectData from '../data/projectsData';
 import CertificationsData from '../data/CertificationsData';
 import ServicesData from '../data/ServicesData';
+import socialLinks from '../data/socialLinks';
 import Skills from '../data/Skills';
 import { main } from '../API/GEMINI';
 
@@ -11,6 +12,7 @@ const projectsText = JSON.stringify(ProjectData, null, 2);
 const certificationsText = JSON.stringify(CertificationsData, null, 2);
 const servicesText = JSON.stringify(ServicesData, null, 2);
 const skillsText = JSON.stringify(Skills, null, 2);
+const socialLinksText = JSON.stringify(socialLinks, null, 2);
 
 function ChatBox() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -57,8 +59,21 @@ function ChatBox() {
        - If a question is outside the scope of the given data, say:  
          *"I don't have that information in the portfolio data provided."*
 
+    6. **Examples**
+       - *Good*: "Here are some of **Muhammad Awais'** key projects:
+         - **FilmFind - Movie Search App**: A *React.js* application that fetches and displays movie and TV show data from TMDB API. [View Project](https://muhammad-awais-web-dev.github.io/filmfind/)
+         - **Personal Portfolio**: A responsive portfolio website built with *React.js*. [View Project](https://muhammad-awais-web-dev.github.io/)
+         - **Freelancer Portfolios Initiative**: Custom portfolios for 5 freelancers across creative fields."
+       - *Bad*: "Muhammad Awais has done many projects. Check his website."
+
+    7. **Tone and Style**
+       - Maintain a friendly, professional tone.
+       - Be engaging and approachable, as if conversing with a potential client or collaborator.
+
+    8. **Data Provided**
     Projects:
     ${projectsText}
+    when asking for projects at the end of the response provide a link to the GitHub Account when appopirate.
 
     Certifications:
     ${certificationsText}
@@ -68,6 +83,15 @@ function ChatBox() {
 
     Skills:
     ${skillsText}
+
+    socialLinks:
+    ${socialLinksText}
+    When Asked for contact info provide: Priority contact via LinkedIn
+
+
+    9. **Chat History**
+       - Consider the entire chat history for context.
+       - Reference previous messages when relevant to maintain continuity.
 
     Chat history:
     ${chatHistory.map(msg => `${msg.type}: ${msg.text}`).join('\n')}
