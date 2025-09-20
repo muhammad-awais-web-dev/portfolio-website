@@ -10,7 +10,6 @@ import Projects from './pages/projects/Projects';
 import Certifications from './pages/certifications/Certifications';
 import Services from './pages/services/Services';
 import Testing from './pages/Testing/Testing';
-import ChatBox from './components/ChatBox';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -20,7 +19,6 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <ChatBox />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={< About/>} />
