@@ -20,7 +20,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      {/* <ChatBox /> */}
+      <ChatBox />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={< About/>} />
