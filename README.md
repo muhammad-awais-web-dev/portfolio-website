@@ -104,6 +104,7 @@ portfolio-website/
 └── Readme Images/                   # Mockups and wireframes
 ```
 
+
 ## 🎯 Data Flow Architecture
 
 ### Projects Data Management
