@@ -28,6 +28,7 @@ const CertificationsList = ({
           issuer={certification.issuer}
           image={certification.image}
           professional={certification.professional}
+          specialization={certification.specialization}
           partof={certification.partof}
           verifications={certification.verifications}
         />

@@ -3,6 +3,7 @@ const CertificationsData = [
         title: "Google UX Design Professional Certificate",
         issuer: "Google via Coursera",
         professional: true,
+        specialization:false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/google-ux-design.webp',
         featured: true,
         partof: "Google UX Design Professional Certificate",
@@ -21,6 +22,7 @@ const CertificationsData = [
         title: "Foundations of User Experience (UX) Design",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -35,6 +37,7 @@ const CertificationsData = [
         title: "Start the UX Design Process: Empathize, Define, and Ideate",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -49,6 +52,7 @@ const CertificationsData = [
         title: "Build Wireframes and Low-Fidelity Prototypes",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -63,6 +67,7 @@ const CertificationsData = [
         title: "Conduct UX Research and Test Early Concepts",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -77,6 +82,7 @@ const CertificationsData = [
         title: "Create High-Fidelity Designs and Prototypes in Figma",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -91,6 +97,7 @@ const CertificationsData = [
         title: "Build Dynamic User Interfaces (UI) for Websites",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -105,6 +112,7 @@ const CertificationsData = [
         title: "Design a User Experience for Social Good & Prepare for Jobs",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -119,6 +127,7 @@ const CertificationsData = [
         title: "Accelerate Your Job Search with AI",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google UX Design Professional Certificate",
@@ -133,6 +142,7 @@ const CertificationsData = [
         title: "Meta Front-End Developer Professional Certificate",
         issuer: "Meta via Coursera",
         professional: true,
+        specialization:false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/meta-front-end.webp',
         featured: true,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -151,6 +161,7 @@ const CertificationsData = [
         title: "Introduction to Front-End Development",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -165,6 +176,7 @@ const CertificationsData = [
         title: "Programming with JavaScript",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -179,6 +191,7 @@ const CertificationsData = [
         title: "Version Control",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -193,6 +206,7 @@ const CertificationsData = [
         title: "HTML and CSS in depth",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -207,6 +221,7 @@ const CertificationsData = [
         title: "React Basics",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -221,6 +236,7 @@ const CertificationsData = [
         title: "Advanced React",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -234,7 +250,8 @@ const CertificationsData = [
     {
         title: "Meta React Specialization",
         issuer: "Meta via Coursera",
-        professional: true,
+        professional: false,
+        specialization: true,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta React Specialization",
@@ -249,6 +266,7 @@ const CertificationsData = [
         title: "Principles of UX/UI Design",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -263,6 +281,7 @@ const CertificationsData = [
         title: "Front-End Developer Capstone",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -277,6 +296,7 @@ const CertificationsData = [
         title: "Coding Interview Preparation",
         issuer: "Meta via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
         featured: false,
         partof: "Meta Front-End Developer Professional Certificate",
@@ -291,6 +311,7 @@ const CertificationsData = [
         title: "Google AI Essentials Professional Certificate",
         issuer: "Google via Coursera",
         professional: true,
+        specialization:false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/google-ai-essentials.webp',
         featured: true,
         partof: "Google AI Essentials Professional Certificate",
@@ -309,6 +330,7 @@ const CertificationsData = [
         title: "Start Writing Prompts like a Pro",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google AI Essentials Professional Certificate",
@@ -323,6 +345,7 @@ const CertificationsData = [
         title: "Design Prompts for Everyday Work Tasks",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google AI Essentials Professional Certificate",
@@ -337,6 +360,7 @@ const CertificationsData = [
         title: "Speed Up Data Analysis and Presentation Building",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google AI Essentials Professional Certificate",
@@ -351,6 +375,7 @@ const CertificationsData = [
         title: "Use AI as a Creative or Expert Partner",
         issuer: "Google via Coursera",
         professional: false,
+        specialization: false,
         image: process.env.PUBLIC_URL + '/assets/Certifications/Google.svg',
         featured: false,
         partof: "Google AI Essentials Professional Certificate",
@@ -358,6 +383,79 @@ const CertificationsData = [
             {
                 text:"Coursera",
                 ref: "https://www.coursera.org/account/accomplishments/verify/QHUBB02DRLBH"
+            }
+        ]
+    },
+    {
+        title: "Introduction to Back-End Development",
+        issuer: "Meta via Coursera",
+        professional: false,
+        specialization: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Back-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/Q4RRHNMODI63"
+            }
+        ]
+    },{
+        title: "Programming in Python",
+        issuer: "Meta via Coursera",
+        professional: false,
+        specialization: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Back-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/3N0QPDOZ2SQT"
+            }
+        ]
+    },{
+        title: "Introduction to Databases for Back-End Development",
+        issuer: "Meta via Coursera",
+        professional: false,
+        specialization: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Back-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/3NAPO18RMD2Q"
+            }
+        ]
+    },
+    {
+        title: "Django Web Framework",
+        issuer: "Meta via Coursera",
+        professional: false,
+        specialization: false,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Back-End Developer Professional Certificate",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/verify/O5K6XPU8XNCF"
+            }
+        ]
+    },
+    {
+        title: "Meta Web Development Fundamentals",
+        issuer: "Meta via Coursera",
+        professional: false,
+        specialization: true,
+        image: process.env.PUBLIC_URL + '/assets/Certifications/Meta.svg',
+        featured: false,
+        partof: "Meta Web Development Fundamentals",
+        verifications: [
+            {
+                text:"Coursera",
+                ref: "https://www.coursera.org/account/accomplishments/specialization/00ZBSTUV6U77"
             }
         ]
     }

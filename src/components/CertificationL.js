@@ -6,6 +6,7 @@ const CertificationL = ({
   issuer,
   image,
   professional,
+  specialization,
   partof,
   verifications
 }) => {
@@ -19,19 +20,18 @@ const CertificationL = ({
       <div className={styles.certificationContent}>
         <div className={styles.certificationInfo}>
           <div className={styles.certificationHeader}>
-            {professional && (
-              <span className={styles.professionalBadge}>Professional Certificate</span>
+            {(professional || specialization) && (
+              <span className={styles.professionalBadge}>{professional ? "Professional Certificate" : "Specialization"}</span>
+            )}
+            {!specialization && !professional && partof && (
+              <p className={styles.certificationPartOf}>
+                Part of: {partof}
+              </p>
             )}
             <h3 className={styles.certificationTitle}>{title}</h3>
             <span className={styles.certificationIssuer}>{issuer}</span>
           </div>
-          {partof && (
-            <p className={styles.certificationPartOf}>
-              Part of: {partof}
-            </p>
-          )}
         </div>
-        
         <div className={styles.verificationsContainer}>
           {verifications.map((verification, index) => (
             <a 
