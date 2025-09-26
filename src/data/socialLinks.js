@@ -27,7 +27,7 @@ const socialLinks = [
     id: 5,
     name: "Instagram",
     url: "https://www.instagram.com/muhammadawaiswebdev/",
-    iconClass : "fa-brand fa-instagram"
+    iconClass : "fa-brands fa-instagram"
   }
 ];
 
